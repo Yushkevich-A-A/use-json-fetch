@@ -1,0 +1,33 @@
+h2 {
+  text-align: center;
+  line-height: 0;
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.test-block {
+  width: 300px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+}
+
+.loading {
+  color: orange;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.data {
+  color: green;
+  text-align: center;
+}
+
