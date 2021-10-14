@@ -14,7 +14,7 @@ function useJsonFetch(url, opts) {
                 }
                 return response.json();
             })
-            .then( data => setData('Данные получены') )
+            .then( data => setData(data.status))
             .catch( (e) => {
                 setError(e.message);
             })
